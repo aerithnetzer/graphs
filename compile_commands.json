@@ -1,0 +1,12 @@
+[
+  {
+    "directory": ".",
+    "command": "gcc -I. -I$(brew --prefix)/include -Wall -Wextra -std=c11 -c main.c -o build/main.o",
+    "file": "main.c"
+  },
+  {
+    "directory": ".",
+    "command": "gcc build/main.o -L$(brew --prefix)/lib -ligraph -o build/main",
+    "file": "main.c"
+  }
+]
