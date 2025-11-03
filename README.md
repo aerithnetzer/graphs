@@ -15,4 +15,4 @@ The sub-goals are thus:
 
 ## Motivation
 
-I find myself often getting OOM errors in python after wasting hours in HPC jobs. The idea is that I can pre-allocate all memory before running any complex functions. That way, if I run out of memory, I will know in the first seconds rather than after hours.
+I find myself often getting OOM errors in python after wasting hours in HPC jobs. The idea is that I can pre-allocate all memory before running any complex functions. That way, if I run out of memory, I will know in the first seconds rather than after hours. (#3 of the Rules for Developing Safety-Critical Code?) But I am also not NASA, so we shall see.
