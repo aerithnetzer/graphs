@@ -1,0 +1,1 @@
+/usr/bin/cc -g -Wall -Wextra -fsanitize=address -fno-omit-frame-pointer -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/graphs.dir/main.c.o -o graphs   -L/opt/homebrew/lib  -Wl,-rpath,/opt/homebrew/lib -ligraph

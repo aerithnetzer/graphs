@@ -1,12 +1,8 @@
 [
-  {
-    "directory": ".",
-    "command": "gcc -I. -I$(brew --prefix)/include -Wall -Wextra -std=c11 -c main.c -o build/main.o",
-    "file": "main.c"
-  },
-  {
-    "directory": ".",
-    "command": "gcc build/main.o -L$(brew --prefix)/lib -ligraph -o build/main",
-    "file": "main.c"
-  }
+{
+  "directory": "/Users/ysc4337/warlock/graphs",
+  "command": "/usr/bin/cc  -I/opt/homebrew/include -I/opt/homebrew/include/igraph -g -Wall -Wextra -fsanitize=address -fno-omit-frame-pointer -std=gnu11 -arch arm64 -o CMakeFiles/graphs.dir/main.c.o -c /Users/ysc4337/warlock/graphs/main.c",
+  "file": "/Users/ysc4337/warlock/graphs/main.c",
+  "output": "CMakeFiles/graphs.dir/main.c.o"
+}
 ]
